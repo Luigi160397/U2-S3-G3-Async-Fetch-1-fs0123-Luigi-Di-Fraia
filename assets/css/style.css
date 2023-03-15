@@ -2,6 +2,15 @@ body {
   opacity: 0;
   animation: fade-in 1s ease-in-out forwards;
 }
+
+h1 {
+  text-shadow: 0 15px 15px rgba(0, 0, 0, 0.619), 2px 2px 0 #161616, 2px -2px 0 #161616, -2px 2px 0 #161616,
+    -2px -2px 0 #161616, 2px 0px 0 #161616, 0px 2px 0 #161616, -2px 0px 0 #161616, 0px -2px 0 #161616,
+    0px 0px 0px rgba(22, 22, 22, 0);
+  color: #d5a15b;
+  font-size: 4rem;
+}
+
 .row {
   opacity: 0;
   animation: fade-in 1s ease-in-out forwards;
